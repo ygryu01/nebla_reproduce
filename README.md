@@ -62,7 +62,7 @@ CUDA_VISIBLE_DEVICES=7 python train_stage2.py \
 ```
 
 2) INFER
-## 주의: INFER 코드에는 metric을 계산하는 부분이 없음.
+**주의: INFER 코드에는 metric을 계산하는 부분이 없음.**
 **--save_input: 3D U-NET에 들어가는 input volume(coarse volume)을 저장한다.**
 **--save_target: GT volume을 저장한다.**
 ```bash
