@@ -1,0 +1,21 @@
+subject_code: 1004
+nii: /home/alphayoung8/log1/oral3d_reproduce/data/cbct_nii/1004.nii.gz
+rotation_geometry: /home/alphayoung8/log1/nebla/simpx_renderer/center_geometries/1004/rotation_geometry_1004.npz
+volume_shape_H_W_Z: (320, 320, 200)
+rotation_centers_shape: (21, 2)
+ray_origins_shape: (576, 2)
+ray_dirs_shape: (576, 2)
+raw_pano_shape_pass1_H_W: (200, 576)
+raw_pano_shape_pass2_H_W: (200, 576)
+final_pano_shape_H_W: (200, 576)
+final_png_size_W_H: (576, 200)
+resize: disabled
+deprecated_pano_h_arg: 200
+deprecated_pano_w_arg: 350
+clip_max: 0.08
+q_percentile: 99.5
+beta_base: 1.00000000e-06
+p99.5: 0.055165384
+beta_used: 1.45018478e-06
+batch_z: 32
+invert: False

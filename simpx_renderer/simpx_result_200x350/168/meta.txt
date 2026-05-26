@@ -1,0 +1,20 @@
+subject_code: 168
+nii: /home/alphayoung8/log1/oral3d_reproduce/data/cbct_nii/168.nii.gz
+rotation_geometry: /home/alphayoung8/log1/nebla/center_geometries/168/rotation_geometry_168.npz
+volume_shape_H_W_Z: (320, 320, 200)
+rotation_centers_shape: (21, 2)
+ray_origins_shape: (311, 2)
+ray_dirs_shape: (311, 2)
+raw_pano_shape_pass1_before_resize_H_W: (200, 311)
+raw_pano_shape_pass2_before_resize_H_W: (200, 311)
+final_pano_shape_H_W: (200, 350)
+final_png_size_W_H: (350, 200)
+center_region_debug_png: /home/alphayoung8/log1/nebla/simpx_result_200x350/168/debug_pano_center_regions.png
+center_region_debug_meta: /home/alphayoung8/log1/nebla/simpx_result_200x350/168/debug_pano_center_regions_meta.txt
+clip_max: 0.08
+q_percentile: 99.5
+beta_base: 1.00000000e-06
+p99.5: 0.038838115
+beta_used: 2.05983223e-06
+batch_z: 32
+invert: False

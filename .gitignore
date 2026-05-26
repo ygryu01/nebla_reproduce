@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# environments
+.venv/
+venv/
+env/
+conda/
+*.egg-info/
+
+# data / medical volumes
+data/
+dataset/
+*.nii
+*.nii.gz
+*.npy
+*.npz
+*.mha
+*.mhd
+
+# outputs / logs
+logs/
+log/
+outputs/
+output/
+results/
+result/
+runs/
+wandb/
+tensorboard/
+*.png
+*.jpg
+*.jpeg
+
+# checkpoints / weights
+*.pt
+*.pth
+*.pth.tar
+*.ckpt
+*.pkl
+
+# secrets
+.env
+*.key
+id_rsa*
+id_ed25519*

@@ -1,0 +1,26 @@
+# Center-region debug for final resized pano
+# left-to-right order follows ray_center_ids in rotation_geometry npz
+final_pano_size_W_H: (350, 200)
+raw_ray_count: 311
+columns: cid, raw_start, raw_end_exclusive, ray_count, resized_left, resized_right
+C0	0	33	33	0	37
+C1	33	66	33	37	74
+C2	66	88	22	74	99
+C3	88	105	17	99	118
+C4	105	118	13	118	132
+C5	118	128	10	132	144
+C6	128	136	8	144	153
+C7	136	140	4	153	157
+C8	140	143	3	157	160
+C9	143	146	3	160	164
+C10	146	157	11	164	176
+C11	157	160	3	176	180
+C12	160	163	3	180	183
+C13	163	170	7	183	191
+C14	170	178	8	191	200
+C15	178	188	10	200	211
+C16	188	201	13	211	226
+C17	201	218	17	226	245
+C18	218	245	27	245	275
+C19	245	278	33	275	312
+C20	278	311	33	312	349
